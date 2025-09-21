@@ -1,16 +1,42 @@
-# flutter_valuelisenablebuilder
+# Flutter Samples
 
-A new Flutter project.
+This repository contains small Flutter practice projects.  
+Each project focuses on learning one Flutter concept.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Project 1: flutter_valuelistenablebuilder
 
-A few resources to get you started if this is your first Flutter project:
+A simple counter app demonstrating:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- ValueNotifier
+- ValueListenableBuilder
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🔹 Features
+- Increment counter using FloatingActionButton
+- Rebuild only the widget that listens to the counter
+- Clean and simple Flutter state management example
+
+---
+
+### 🚀 How to Run
+
+1. **Clone this repository:**
+   ```bash
+   git clone https://github.com/Ananduudayan180/flutter_samples.git
+   ```
+
+2. **Go into the project folder:**
+   ```bash
+   cd flutter_samples
+   ```
+   
+3. **Get the dependencies:**
+   ```bash
+   flutter pub get
+   ```
+
+4. **Run the app on your emulator or connected device:** 
+   ```bash
+   flutter run
+   ```
