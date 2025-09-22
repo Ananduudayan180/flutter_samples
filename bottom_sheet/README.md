@@ -1,16 +1,42 @@
-# bottom_sheet
+# \# Bottom Sheet Demo
 
-A new Flutter project.
+# 
 
-## Getting Started
+# This Flutter project demonstrates the usage of BottomSheet, BottomNavigationBar, 
 
-This project is a starting point for a Flutter application.
+# and DropdownButtonFormField in a simple and clean UI.
 
-A few resources to get you started if this is your first Flutter project:
+# 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# ---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# 
+
+# \## 🚀 Features
+
+# \- Persistent and modal bottom sheets
+
+# \- Bottom navigation bar with multiple items
+
+# \- DropdownButtonFormField with form validation
+
+# \- Simple state management
+
+# 
+
+# ---
+
+# 
+
+# \## 🛠️ Getting Started
+
+# To run the project locally:
+
+# 
+
+# ```bash
+
+# flutter pub get
+
+# flutter run, and a full API reference.
+
