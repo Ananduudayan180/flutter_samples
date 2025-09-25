@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hive_db_sample/DB/Functions/db_funtions.dart';
+import 'package:hive_db_sample/Screens/widgets/add_student_widget.dart';
 
 class ListStudentWidget extends StatelessWidget {
   const ListStudentWidget({super.key});
@@ -11,8 +12,18 @@ class ListStudentWidget extends StatelessWidget {
       builder: (context, studentList, child) => ListView.separated(
         itemBuilder: (ctx, index) {
           return ListTile(
+            leading: IconButton(
+              onPressed: () {},
+              icon: Icon(Icons.edit, color: Colors.blue),
+            ),
             title: Text(studentList[index].name),
             subtitle: Text(studentList[index].age),
+            trailing: IconButton(
+              onPressed: () {
+                deleteStudent(index);
+              },
+              icon: Icon(Icons.delete, color: Colors.red),
+            ),
           );
         },
         separatorBuilder: (ctx, index) {

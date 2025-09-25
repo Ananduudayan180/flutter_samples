@@ -3,9 +3,11 @@ import 'package:hive_db_sample/DB/Functions/db_funtions.dart';
 import 'package:hive_db_sample/DB/Model/data_model.dart';
 
 class AddStudentWidget extends StatelessWidget {
-  final nameTextController = TextEditingController();
-  final ageTextController = TextEditingController();
   AddStudentWidget({super.key});
+
+  final nameTextController = TextEditingController();
+
+  final ageTextController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -18,6 +20,7 @@ class AddStudentWidget extends StatelessWidget {
             hint: Text('Name'),
           ),
         ),
+
         SizedBox(height: 20),
         TextFormField(
           controller: ageTextController,
@@ -40,6 +43,8 @@ class AddStudentWidget extends StatelessWidget {
   Future<void> addStudentButtonClicked() async {
     final name = nameTextController.text;
     final age = ageTextController.text;
+    nameTextController.clear();
+    ageTextController.clear();
 
     if (name.isEmpty || age.isEmpty) {
       return;
