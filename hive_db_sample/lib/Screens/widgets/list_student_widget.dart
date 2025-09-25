@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:hive_db_sample/DB/Functions/db_funtions.dart';
-import 'package:hive_db_sample/Screens/widgets/add_student_widget.dart';
 
 class ListStudentWidget extends StatelessWidget {
   const ListStudentWidget({super.key});
