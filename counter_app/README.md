@@ -19,18 +19,26 @@ This project is part of the Flutter Samples collection.
 
 ⸻
 
-🚀 Getting Started
+## 🚀 Getting Started
 
 How to run this project:
 
-# 1 Clone the repo
+1. **Clone the repo**
+```bash
 git clone https://github.com/Ananduudayan180/flutter_samples.git
+```
 
-# 2 Go to project folder
+2. **Go to project folder**
+```bash
 cd flutter_samples/counter_app
+```
 
-# 3 Get dependencies
+3. **Get dependencies**
+```bash
 flutter pub get
+```
 
-# 4 Run the app
+4. **Run the app**
+```bash
 flutter run
+```
