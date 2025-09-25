@@ -1,42 +1,46 @@
-# \# Bottom Sheet Demo
+📱 Bottom Sheet Demo
 
-# 
+A Flutter project demonstrating the usage of BottomSheet, BottomNavigationBar, and DropdownButtonFormField in a simple and clean UI.
+This project is part of the Flutter Samples collection.
 
-# This Flutter project demonstrates the usage of BottomSheet, BottomNavigationBar, 
+⸻
 
-# and DropdownButtonFormField in a simple and clean UI.
+✨ Features
+ • 📌 Persistent and modal bottom sheets
+ • 📊 Bottom navigation bar with multiple items
+ • 🔽 DropdownButtonFormField for user input
+ • ⚡️ Simple state management
 
-# 
+⸻
 
-# ---
+🛠 Tech Stack
+ • Flutter
+ • BottomSheet
+ • BottomNavigationBar
+ • DropdownButtonFormField
 
-# 
+ ⸻
+ 
+ ## 🚀Getting Started
 
-# \## 🚀 Features
+How to run this project:
 
-# \- Persistent and modal bottom sheets
+1. **Clone the repo**
+```bash
+git clone https://github.com/Ananduudayan180/flutter_samples.git
+```
 
-# \- Bottom navigation bar with multiple items
+2. **Go to project folder**
+```bash
+cd flutter_samples/hive_db_sample
+```
 
-# \- DropdownButtonFormField with form validation
+3. **Get dependencies**
+```bash
+flutter pub get
+```
 
-# \- Simple state management
-
-# 
-
-# ---
-
-# 
-
-# \## 🛠️ Getting Started
-
-# To run the project locally:
-
-# 
-
-# ```bash
-
-# flutter pub get
-
-# flutter run, and a full API reference.
-
+4. **Run the app**
+```bash
+flutter run
+```
