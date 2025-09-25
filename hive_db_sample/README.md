@@ -17,17 +17,26 @@ This app manages student records with basic CRUD operations (Create, Read, Delet
  • Hive (local key-value database for stora)
  • ValueListenableBuilder (for reactive UI)
 
- 🚀 Getting Started
+ ## 🚀Getting Started
 
 How to run this project:
 
-# 1 Clone the repo
+1. **Clone the repo**
+```bash
 git clone https://github.com/Ananduudayan180/flutter_samples.git
+```
 
-# 2 Go to project folder
+2. **Go to project folder**
+```bash
 cd flutter_samples/hive_db_sample
+```
 
-# 3 Get dependencies
+3. **Get dependencies**
+```bash
 flutter pub get
-# Run the app
+```
+
+4. **Run the app**
+```bash
 flutter run
+```
