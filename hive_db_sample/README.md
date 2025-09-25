@@ -1,16 +1,33 @@
-# hive_db_sample
+📦 Hive DB Sample – Student Management App
 
-A new Flutter project.
+A simple Flutter project demonstrating how to use Hive database for local storage.
+This app manages student records with basic CRUD operations (Create, Read, Delete).
 
-## Getting Started
+⸻
 
-This project is a starting point for a Flutter application.
+✨ Features
+ • ➕ Add new student (Name & Age)
+ • 📋 View list of all students
+ • 🗑️ Delete student from the list
+ • 💾 Data persistence using Hive (stored locally on device)
+ • ⚡️ Reactive UI with ValueListenableBuilder
 
-A few resources to get you started if this is your first Flutter project:
+ 🛠️ Tech Stack
+ • Flutter
+ • Hive (local key-value database for stora)
+ • ValueListenableBuilder (for reactive UI)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+ 🚀 Getting Started
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+How to run this project:
+
+# 1 Clone the repo
+git clone https://github.com/Ananduudayan180/flutter_samples.git
+
+# 2 Go to project folder
+cd flutter_samples/hive_db_sample
+
+# 3 Get dependencies
+flutter pub get
+# Run the app
+flutter run
