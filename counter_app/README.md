@@ -1,46 +1,36 @@
-\# Counter App using ValueListenableBuilder
-
-
+🔢 Counter App (ValueListenableBuilder)
 
 A simple Flutter app demonstrating state management using ValueNotifier and ValueListenableBuilder.
+This project is part of the Flutter Samples collection.
 
+⸻
 
+✨ Features
+ • ➕ Increment counter using FloatingActionButton
+ • 🔄 Rebuild only the widget that listens to the counter
+ • 🧩 Clean and simple Flutter state management example
 
----
+⸻
 
+🛠 Tech Stack
+ • Flutter
+ • ValueNotifier
+ • ValueListenableBuilder
 
+⸻
 
-\## 🚀 Features
+🚀 Getting Started
 
-\- Increment counter using FloatingActionButton
+How to run this project:
 
-\- Rebuild only the widget that listens to the counter
+# 1 Clone the repo
+git clone https://github.com/Ananduudayan180/flutter_samples.git
 
-\- Clean and simple Flutter state management example
+# 2 Go to project folder
+cd flutter_samples/counter_app
 
-
-
----
-
-
-
-\## 🛠️ Concepts Used
-
-\- ValueNotifier
-
-\- ValueListenableBuilder
-
-
-
----
-
-
-
-\## ▶️ Getting Started
-
-```bash
-
+# 3 Get dependencies
 flutter pub get
 
+# 4 Run the app
 flutter run
-
