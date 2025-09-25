@@ -32,7 +32,7 @@ git clone https://github.com/Ananduudayan180/flutter_samples.git
 
 2. **Go to project folder**
 ```bash
-cd flutter_samples/hive_db_sample
+cd flutter_samples/bottom_sheet
 ```
 
 3. **Get dependencies**
