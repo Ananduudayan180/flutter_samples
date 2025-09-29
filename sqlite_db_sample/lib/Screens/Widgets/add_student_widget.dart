@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:sqlite_db_sample/DB/Functions/db_functions.dart';
 import 'package:sqlite_db_sample/DB/Model/data_model.dart';
 
+final nameTextController = TextEditingController();
+final ageTextController = TextEditingController();
+int studentId = 0;
+
+ValueNotifier<String> addOrUpdate = ValueNotifier('Add Student');
+
 class AddStudentWidget extends StatelessWidget {
-  AddStudentWidget({super.key});
-
-  final nameTextController = TextEditingController();
-
-  final ageTextController = TextEditingController();
+  const AddStudentWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -34,7 +36,12 @@ class AddStudentWidget extends StatelessWidget {
           onPressed: () {
             addStudentButtonClicked();
           },
-          child: Text('Add'),
+          child: ValueListenableBuilder(
+            valueListenable: addOrUpdate,
+            builder: (context, value, child) {
+              return Text(addOrUpdate.value);
+            },
+          ),
         ),
       ],
     );
@@ -46,11 +53,19 @@ class AddStudentWidget extends StatelessWidget {
     nameTextController.clear();
     ageTextController.clear();
 
-    if (name.isEmpty || age.isEmpty) {
-      return;
+    if (addOrUpdate.value == 'Add Student') {
+      if (name.isEmpty || age.isEmpty) {
+        return;
+      } else {
+        final student = StudentModel(name: name, age: age);
+        addStudentsData(student);
+      }
     } else {
-      final student = StudentModel(name: name, age: age);
-      addStudetsData(student);
+      print('update');
+      addOrUpdate.value = 'Add Student';
+
+      final student = StudentModel(name: name, age: age, id: studentId);
+      updateStudent(student);
     }
   }
 }
