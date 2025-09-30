@@ -6,16 +6,16 @@ This project is part of the Flutter Samples collection.
 ⸻
 
 ✨ Features
-• ➕ Add Student
-• 📋 View Students
-• ✏️ Edit Student (auto-fills name & age; button changes to Update Student)
-• 🗑 Delete Student
+- ➕ Add Student
+- 📋 View Students
+- ✏️ Edit Student (auto-fills name & age; button changes to Update Student)
+- 🗑 Delete Student
 
 ⸻
 
 🛠 Tech Stack
-• Flutter
-• sqflite
+- Flutter
+- sqflite
 
 ⸻
 
