@@ -10,8 +10,9 @@ Each project focuses on learning one Flutter concept.
 1. [Counter App](./counter_app) - ValueListenableBuilder state management  
 2. [Bottom Sheet Demo](./bottom_sheet) - BottomSheet, BottomNavigationBar, Dropdown usage
 3. [Student Management App](./hive_db_sample) - Hive database with CRUD operations (without Update)
-4. [SQLite DB Sample](./sqlite_db_sample)- Sqlite database with CRUD operations
-5. [Shared Preferences](./shared_preferences)- Shared Preferences login, Splash screen feature
+4. [SQLite DB Sample](./sqlite_db_sample) - Sqlite database with CRUD operations
+5. [Shared Preferences](./shared_preferences) - Shared Preferences login, Splash screen feature
+6. [Business Card UI](./business_card/) - Clean and simple business card UI layout
 
 ---
 
@@ -73,7 +74,17 @@ A demo using Hive as local storage (Create, Read, Delete)
  - Uses shared_preferences to save login
  - Home page accessible only to logged-in users
 
----
+ ---
+
+ ## Project 6: Business Card UI Sample
+
+ Clean Business card info
+
+✨ Features
+ - Profile section with name & designation
+ - Phone number and Email display
+ 
+ ---
 
 ### 🚀 How to Run
 
@@ -93,6 +104,8 @@ A demo using Hive as local storage (Create, Read, Delete)
    cd flutter_samples/sqlite_db_sample
    # or
    cd flutter_samples/shared_preferences
+   # or
+   cd flutter_samples/business_card
    ```
    
 3. **Get dependencies:**
