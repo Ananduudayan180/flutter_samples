@@ -6,16 +6,16 @@ This project is part of the Flutter Samples collection.
 ⸻
 
 ✨ Features
-• ⏳ Splash screen with 3-second delay
-• 🔐 Login using shared_preferences
-• ✅ Correct username/password → navigate to Home Page
-• ❌ Wrong username/password → show “Value is empty” message below TextField
+- ⏳ Splash screen with 3-second delay
+- 🔐 Login using shared_preferences
+- ✅ Correct username/password → navigate to Home Page
+- ❌ Wrong username/password → show “Value is empty” message below TextField
 
 ⸻
 
 🛠 Tech Stack
-• Flutter
-• shared_preferences package
+- Flutter
+- shared_preferences package
 
 ⸻
 
