@@ -13,6 +13,7 @@ Each project focuses on learning one Flutter concept.
 4. [SQLite DB Sample](./sqlite_db_sample) - Sqlite database with CRUD operations
 5. [Shared Preferences](./shared_preferences) - Shared Preferences login, Splash screen feature
 6. [Business Card UI](./business_card/) - Clean and simple business card UI layout
+7. [Dice Rolling App](./dice_rolling_app/) - Random dice image generate
 
 ---
 
@@ -86,6 +87,17 @@ A demo using Hive as local storage (Create, Read, Delete)
  
  ---
 
+ ## Project 7: Dice Rolling App
+
+ Dice rolling game
+
+✨ Features
+ - Roll a dice with dice press
+ - Random image update dynamically
+ - Clean and simple UI
+
+ ---
+ 
 ### 🚀 How to Run
 
 1. **Clone this repository:**
@@ -106,6 +118,8 @@ A demo using Hive as local storage (Create, Read, Delete)
    cd flutter_samples/shared_preferences
    # or
    cd flutter_samples/business_card
+   # or
+   cd flutter_samples/dice_rolling_app
    ```
    
 3. **Get dependencies:**
