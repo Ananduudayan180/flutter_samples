@@ -10,6 +10,8 @@ Each project focuses on learning one Flutter concept.
 1. [Counter App](./counter_app) - ValueListenableBuilder state management  
 2. [Bottom Sheet Demo](./bottom_sheet) - BottomSheet, BottomNavigationBar, Dropdown usage
 3. [Student Management App](./hive_db_sample) - Hive database with CRUD operations (without Update)
+4. [SQLite DB Sample](./sqlite_db_sample)- Sqlite database with CRUD operations
+5. [Shared Preferences](./shared_preferences)- Shared Preferences login, Splash screen feature
 
 ---
 
@@ -31,6 +33,7 @@ A simple counter app demonstrating:
 
 A demo app showcasing:
 
+### ✨ Features
 - Persistent and modal bottom sheets
 - BottomNavigationBar with multiple items
 - DropdownButtonFormField
@@ -49,6 +52,29 @@ A demo using Hive as local storage (Create, Read, Delete)
 
  ---
 
+ ## Project 4: SQLite DB Sample 
+
+ Student Name and Age app using SQLite as local storage
+
+✨ Features
+ - Add student details (Name & Age)
+ - View student list with ValueListenableBuilder
+ - CRUD support
+ - Edit Student(UI): Click edit to auto-fill name & age, button change to Update Student
+
+ ---
+
+ ## Project 5: Shared Preferences Login Sample
+
+ Uses shared_preferences to save login
+
+✨ Features
+ - Splash screen
+ - Uses shared_preferences to save login
+ - Home page accessible only to logged-in users
+
+---
+
 ### 🚀 How to Run
 
 1. **Clone this repository:**
@@ -63,6 +89,10 @@ A demo using Hive as local storage (Create, Read, Delete)
    cd flutter_samples/bottom_sheet
    # or
    cd flutter_samples/hive_db_sample
+   # or
+   cd flutter_samples/sqlite_db_sample
+   # or
+   cd flutter_samples/shared_preferences
    ```
    
 3. **Get dependencies:**
