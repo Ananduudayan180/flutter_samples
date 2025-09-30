@@ -1,16 +1,44 @@
-# flutter_sample
+📦 Shared Preferences Login Sample
 
-A new Flutter project.
+A simple Flutter project demonstrating splash screen navigation and login using shared_preferences.
+This project is part of the Flutter Samples collection.
 
-## Getting Started
+⸻
 
-This project is a starting point for a Flutter application.
+✨ Features
+• ⏳ Splash screen with 3-second delay
+• 🔐 Login using shared_preferences
+• ✅ Correct username/password → navigate to Home Page
+• ❌ Wrong username/password → show “Value is empty” message below TextField
 
-A few resources to get you started if this is your first Flutter project:
+⸻
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+🛠 Tech Stack
+• Flutter
+• shared_preferences package
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+⸻
+
+## 🚀 Getting Started
+
+How to run this project:
+
+1. **Clone the repo**
+```bash
+git clone https://github.com/Ananduudayan180/flutter_samples.git
+```
+
+2. **Go to project folder**
+```bash
+cd flutter_samples/shared_preferences
+```
+
+3. **Get dependencies**
+```bash
+flutter pub get
+```
+
+4. **Run the app**
+```bash
+flutter run
+```
