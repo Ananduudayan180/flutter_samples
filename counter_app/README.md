@@ -6,16 +6,16 @@ This project is part of the Flutter Samples collection.
 ⸻
 
 ✨ Features
- • ➕ Increment counter using FloatingActionButton
- • 🔄 Rebuild only the widget that listens to the counter
- • 🧩 Clean and simple Flutter state management example
+ - ➕ Increment counter using FloatingActionButton
+ - 🔄 Rebuild only the widget that listens to the counter
+ - 🧩 Clean and simple Flutter state management example
 
 ⸻
 
 🛠 Tech Stack
- • Flutter
- • ValueNotifier
- • ValueListenableBuilder
+ - Flutter
+ - ValueNotifier
+ - ValueListenableBuilder
 
 ⸻
 
