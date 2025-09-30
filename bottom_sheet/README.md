@@ -6,18 +6,18 @@ This project is part of the Flutter Samples collection.
 ⸻
 
 ✨ Features
- • 📌 Persistent and modal bottom sheets
- • 📊 Bottom navigation bar with multiple items
- • 🔽 DropdownButtonFormField for user input
- • ⚡️ Simple state management
+ - 📌 Persistent and modal bottom sheets
+ - 📊 Bottom navigation bar with multiple items
+ - 🔽 DropdownButtonFormField for user input
+ - ⚡️ Simple state management
 
 ⸻
 
 🛠 Tech Stack
- • Flutter
- • BottomSheet
- • BottomNavigationBar
- • DropdownButtonFormField
+ - Flutter
+ - BottomSheet
+ - BottomNavigationBar
+ - DropdownButtonFormField
 
  ⸻
  
