@@ -6,16 +6,16 @@ This app manages student records with basic CRUD operations (Create, Read, Delet
 ⸻
 
 ✨ Features
- • ➕ Add new student (Name & Age)
- • 📋 View list of all students
- • 🗑️ Delete student from the list
- • 💾 Data persistence using Hive (stored locally on device)
- • ⚡️ Reactive UI with ValueListenableBuilder
+ - ➕ Add new student (Name & Age)
+ - 📋 View list of all students
+ - 🗑️ Delete student from the list
+ - 💾 Data persistence using Hive (stored locally on device)
+ - ⚡️ Reactive UI with ValueListenableBuilder
 
  🛠️ Tech Stack
- • Flutter
- • Hive (local key-value database for stora)
- • ValueListenableBuilder (for reactive UI)
+ - Flutter
+ - Hive (local key-value database for stora)
+ - ValueListenableBuilder (for reactive UI)
 
  ## 🚀Getting Started
 
