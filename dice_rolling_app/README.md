@@ -1,16 +1,43 @@
-# dise_game_app
+📦 Dice App
 
-A new Flutter project.
+A simple Flutter project demonstrating how to build a dice rolling app with random number generation.
+This project is part of the Flutter Samples collection.
 
-## Getting Started
+⸻
 
-This project is a starting point for a Flutter application.
+✨ Features
+- 🎲 Roll a dice with a dice press
+- 🔢 Random number generation (1–6)
+- 🖼 Dice images update dynamically
+- ⚡️ Simple and clean UI
 
-A few resources to get you started if this is your first Flutter project:
+⸻
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+🛠 Tech Stack
+- Flutter
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+⸻
+
+## 🚀 Getting Started
+
+How to run this project:
+
+1. **Clone the repo**
+```bash
+git clone https://github.com/Ananduudayan180/flutter_samples.git
+```
+
+2. **Go to project folder**
+```bash
+cd flutter_samples/dice_rolling_app 
+```
+
+3. **Get dependencies**
+```bash
+flutter pub get
+```
+
+4. **Run the app**
+```bash
+flutter run
+```
